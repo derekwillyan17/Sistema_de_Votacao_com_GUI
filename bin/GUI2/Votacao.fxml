@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="258.0" prefWidth="495.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI2.VotacaoController">
+   <children>
+      <Pane layoutX="14.0" layoutY="30.0" prefHeight="22.0" prefWidth="495.0" style="-fx-background-color: red;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Pane layoutX="24.0" layoutY="40.0" prefHeight="22.0" prefWidth="495.0" style="-fx-background-color: red;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+      <ImageView fitHeight="98.0" fitWidth="99.0" layoutX="81.0" layoutY="80.0" AnchorPane.bottomAnchor="80.0" AnchorPane.leftAnchor="81.0" AnchorPane.rightAnchor="106.0" AnchorPane.topAnchor="80.0">
+         <image>
+            <Image url="@../../../../Área%20de%20Trabalho/semfoto.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="98.0" fitWidth="99.0" layoutX="290.0" layoutY="80.0" AnchorPane.bottomAnchor="80.0" AnchorPane.leftAnchor="290.0" AnchorPane.rightAnchor="106.0" AnchorPane.topAnchor="80.0">
+         <image>
+            <Image url="@../../../../Área%20de%20Trabalho/semfoto.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="RED" layoutX="85.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CANDIDATO 1" AnchorPane.bottomAnchor="183.8671875" AnchorPane.leftAnchor="84.01904296875" AnchorPane.topAnchor="59.06591796875" />
+      <Text fill="RED" layoutX="294.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CANDIDATO 2" AnchorPane.bottomAnchor="183.0" AnchorPane.rightAnchor="109.98095703125" AnchorPane.topAnchor="59.0" />
+      <Button fx:id="cand1" layoutX="100.0" layoutY="186.0" mnemonicParsing="false" onAction="#onbtnVotar1" styleClass="votar" stylesheets="@style.css" text="VOTAR" AnchorPane.bottomAnchor="46.0" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="186.0" />
+      <Button fx:id="cand2" layoutX="309.0" layoutY="186.0" mnemonicParsing="false" onAction="#onbtnVotar2" styleClass="votar" stylesheets="@style.css" text="VOTAR" AnchorPane.bottomAnchor="46.0" AnchorPane.rightAnchor="123.0" AnchorPane.topAnchor="186.0" />
+      <Button fx:id="finalizar" layoutX="421.0" layoutY="16.0" mnemonicParsing="false" onAction="#onbtnFinal" prefHeight="32.0" prefWidth="74.0" styleClass="finalizar" stylesheets="@style.css" text="finalizar" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="16.0" />
+   </children>
+</AnchorPane>
